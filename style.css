@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url("27580.png");
+}
+.cabecalho {
+    margin: 20px;
+}
+.cabecalho h1 {
+    text-align: center;
+    color: white;
+}
+.cabecalho p {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    margin: 30px 150px;
+    text-align: center;
+    color: white;
+
+
+}
+.cabecalho h2 {
+    text-align: center;
+    color: white;
+
+}
+.zone-selection {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.zone-selection a {
+    text-decoration: none;
+    color: black;
+    border:2px solid white;
+    border-radius: 20px;
+
+}
+.zone-selection a:hover {
+    border:2px solid aquamarine;
+    border-radius: 20px;
+    transition: 0.3s;
+
+}
+.card1 {
+    border-radius: 20px;
+    margin: 10px;
+    height: 170px;
+    width: 200px;
+    background-size: cover;
+    background-image: url("lasanha.webp");
+    
+}
+.card2 {
+    margin: 10px;
+    height: 170px;
+    width: 200px;
+    background-image: url("Almondegas.jpg");
+    background-size: cover;
+    border-radius: 20px;
+}
+.card3 {
+    margin: 10px;
+    height: 170px;
+    width: 200px;
+    background-image: url("macarrao_molho_branco.jpg");
+    background-size: cover;
+    border-radius: 20px;
+}
+@media screen and (max-width:500px){
+.cabecalho p {
+    display: none;
+
+}
+
+}

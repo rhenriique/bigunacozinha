@@ -1,0 +1,44 @@
+.options {
+    color: white;
+    border: 3px solid white;
+    margin: 30px 40px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.descricao {
+    padding: 20px;
+}
+.subtitulo {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.lista-sem-ordem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;    
+}
+.lista-sem-ordem li {
+    border: 2px solid white;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 15px;
+}
+.responder {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.clica {
+    font-size: 20px;
+    padding: 10px;
+}
+.clica:hover {
+    background-color: #191919;
+    color: white;
+    transition: 0.2s;
+    cursor: pointer;
+}
