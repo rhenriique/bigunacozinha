@@ -5,7 +5,11 @@
 }
 
 body {
-    background-image: url("27580.png");
+    background-image: url("../bigunacozinha/assets/images/27580.png");
+      background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
 }
 .cabecalho {
     margin: 20px;
@@ -54,14 +58,14 @@ body {
     height: 170px;
     width: 200px;
     background-size: cover;
-    background-image: url("lasanha.webp");
+    background-image: url("../images/lasanha.webp");
     
 }
 .card2 {
     margin: 10px;
     height: 170px;
     width: 200px;
-    background-image: url("Almondegas.jpg");
+    background-image: url("../images/Almondegas.jpg");
     background-size: cover;
     border-radius: 20px;
 }
@@ -69,7 +73,7 @@ body {
     margin: 10px;
     height: 170px;
     width: 200px;
-    background-image: url("macarrao_molho_branco.jpg");
+    background-image: url("../images/macarrao_molho_branco.jpg");
     background-size: cover;
     border-radius: 20px;
 }
